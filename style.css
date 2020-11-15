@@ -1,0 +1,38 @@
+
+h1 {
+    color: gray;
+  }
+h2 {
+    color: gray;
+    font-size: 50px;
+}
+p {
+    color: gray;
+    font-size: 40px;
+}
+body {
+    background-color: #5c5c8a;
+   }
+
+/* Bootstrap Class Altering Styles */
+.container {
+    margin: 0;
+}
+.btn{
+    background-color: #5c5c8a;
+    margin: 20px;
+
+}
+.navbar {
+}
+
+.jumbotron {
+    margin: 50px;
+}
+
+.portrait {
+    filter: grayscale(100%);
+    width: 100%;
+    height: auto;
+    border: 5px solid gray;
+  }
