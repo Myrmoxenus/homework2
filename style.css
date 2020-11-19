@@ -1,38 +1,77 @@
 
-h1 {
-    color: gray;
-  }
-h2 {
-    color: gray;
-    font-size: 50px;
-}
-p {
-    color: gray;
-    font-size: 40px;
-}
 body {
-    background-color: #5c5c8a;
-   }
-
-/* Bootstrap Class Altering Styles */
-.container {
-    margin: 0;
+    background-color: #FFFBE4;
 }
+p { 
+    color: #FFFBE4;
+}
+h1 {
+    color: #894F19;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    margin: 10px
+}
+
+h2 {
+    color: #894F19;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
 .btn{
-    background-color: #5c5c8a;
-    margin: 20px;
+    font-weight: bold;
+    color: #894F19;
+    border: 0px;
+    background-color: #FFFBE4;
+}
+.myCard {
+    margin: auto;
+    margin-top: 0.5in;
+    padding: 10px;
 
 }
-.navbar {
-}
-
-.jumbotron {
-    margin: 50px;
-}
-
-.portrait {
-    filter: grayscale(100%);
-    width: 100%;
+.navbarimage {
+    width: 20%;
+    min-width: 300px;
     height: auto;
-    border: 5px solid gray;
-  }
+    margin: auto;
+}
+
+.imageofme {
+    border: 1px solid #894F19;
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.blankportfoliolink{
+    width: 30%;
+    height: auto;
+    margin: 1%;
+
+}
+
+/* Media Queries */
+@media screen and (max-width: 800px)
+{
+.blankportfoliolink{
+    width: 45%;
+   }
+}
+@media screen and (max-width: 400px)
+{
+.blankportfoliolink{
+    width: 87%;
+margin-left: auto;
+margin-right: auto;
+}
+}
